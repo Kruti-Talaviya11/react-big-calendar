@@ -36,7 +36,7 @@ const CustomToolbar: React.FC<ToolbarProps> = ({
       className="
         flex flex-col gap-3
         sm:flex-row md:items-center md:justify-between
-        px-4 md:px-[140px] py-3
+        py-3
       "
     >
       {/* TOP (mobile) / LEFT (desktop): Today + arrows + label */}
@@ -64,13 +64,13 @@ const CustomToolbar: React.FC<ToolbarProps> = ({
           </button>
 
           <span className="
-  min-w-[64px]
-  text-center
-  font-normal
-  text-xs
-  sm:text-sm
-  whitespace-nowrap
-">
+                min-w-[64px]
+                text-center
+                font-normal
+                text-xs
+                sm:text-sm
+                whitespace-nowrap
+              ">
             {getLabel()}
           </span>
 
